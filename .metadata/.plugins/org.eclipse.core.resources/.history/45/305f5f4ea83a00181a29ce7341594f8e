@@ -1,0 +1,17 @@
+package com.nvlt.myMavenProject.DriverScript;
+
+import com.nvlt.myMavenProject.Executor.Executor;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Executor ex = new Executor();
+    	ex.printName();
+        System.out.println( "Hello World!" );
+    }
+}
